@@ -1,4 +1,4 @@
-# MATLAB / temp
+# MATLAB
 *.asv
 *.log
 *.tmp
@@ -7,9 +7,12 @@
 *.mex*
 *.slxc
 *.slxautosave
+
 # OS
 Thumbs.db
 .DS_Store
-# Results you don't want in repo (adjust as needed)
+
+# Results and build artifacts (adjust as needed)
 results/*.pdf
 results/*.png
+results/*.mat

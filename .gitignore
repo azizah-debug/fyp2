@@ -12,7 +12,13 @@
 Thumbs.db
 .DS_Store
 
-# Results and build artifacts (adjust as needed)
-results/*.pdf
-results/*.png
-results/*.mat
+# Results: ignore everything except final PNGs and the report
+results/*
+!results/*.png
+!results/validation_report.pdf
+!results/validation_summary.csv
+
+# Other build artifacts (adjust as needed)
+*.aux
+*.toc
+*.out

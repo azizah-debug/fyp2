@@ -1,4 +1,4 @@
-﻿function compile_validation_report(validationCSV, outPDF)
+function compile_validation_report(validationCSV, outPDF)
 % compile_validation_report  Create a multipage PDF with validation figures and summary
 % Usage:
 %   compile_validation_report()                     % uses defaults
@@ -69,4 +69,3 @@ end
 close(fig);
 fprintf('Compiled validation report saved to %s\n', outPDF);
 end
-

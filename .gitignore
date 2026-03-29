@@ -12,9 +12,9 @@
 Thumbs.db
 .DS_Store
 
-# Results: ignore everything except final PNGs and the report
+# Results: ignore everything except specific validation outputs
 results/*
-!results/*.png
+!results/validation_*.png
 !results/validation_report.pdf
 !results/validation_summary.csv
 
